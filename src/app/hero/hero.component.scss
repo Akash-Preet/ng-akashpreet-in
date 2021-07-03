@@ -1,0 +1,68 @@
+// .block {
+//   height: 90vh;
+//   background-color: var(--secondary-color);
+//   color: var(--font-primary);
+//   border: 0.5rem solid var(--primary-color);
+//   transition: background-color 0.5s ease;
+// }
+
+// .hero{
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   flex-direction: column;
+//   text-align: center;
+//   text-transform: uppercase;
+// }
+// .hero h1{
+//   font-size: calc(5.2rem + 1vw);
+//   letter-spacing: 1.7rem;
+// }
+// .hero h3 {
+//   font-size: calc(3.2rem + 1vw);
+// }
+
+// .switch-wrapper {
+//   height: var(--height);
+//   margin-left: 20rem;
+//   border-right: 0.4rem dotted var(--primary-color);
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   position: absolute;
+//   top: 1rem;
+//   right:10rem;
+//   transform: translateY(2rem);
+//   transition: height 1s cubic-bezier(0.75, -0.5, 0, 1.75);
+// }
+
+// .switch {
+//   height: 5rem;
+//   width: 5rem;
+//   background-color: var(--primary-color);
+//   border-radius: 50%;
+//   cursor: pointer;
+//   position: absolute;
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   bottom: 0;
+// }
+
+// .switch i {
+//   font-size: 3rem;
+//   position: absolute;
+//   color: var(--font-secondary);
+// }
+
+// .switch [type='checkbox'] {
+//   opacity: 0;
+// }
+
+// .fa-sun {
+//   opacity: var(--d-opacity);
+// }
+
+// .fa-moon {
+//   opacity: var(--l-opacity);
+// }

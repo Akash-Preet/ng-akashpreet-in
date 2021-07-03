@@ -1,0 +1,13 @@
+<div class="block">
+  <div *ngFor="let s of ap.skills" style="font-size: 2.6rem;" class="m-5 skills-block">
+    <h1 class="text-center skills-heading">
+      {{s.category}}
+    </h1>
+    <div class="skills-section">
+      <div *ngFor="let k of s.keywords" class="skills-data">
+        <img [src]="k.logo" alt="akashpreet_Angular">
+        <p class="text-center"> {{k.name}}</p>
+      </div>
+    </div>
+  </div>
+</div>
