@@ -154,7 +154,7 @@ let akashpreet = {
   ],
   skills: [
     {
-      category: "Web Development",
+      category: "Front-end",
       keywords: [
         {
           name: "HTML5",
@@ -175,7 +175,7 @@ let akashpreet = {
           logo: "assets/logo/Bootstrap.svg",
         },
         {
-          name: "SASS",
+          name: "Sass",
           level: "Master",
           icon: '<i class="devicon-sass-plain"></i>',
           logo: "assets/logo/Sass.svg",
@@ -191,24 +191,6 @@ let akashpreet = {
           level: "Master",
           icon: '<i class="devicon-typescript-plain"></i>',
           logo: "assets/logo/Typescript.svg",
-        },
-        {
-          name: "JQuery",
-          level: "Master",
-          icon: '<i class="devicon-jquery-plain"></i>',
-          logo: "assets/logo/JQuery.svg",
-        },
-        {
-          name: "SVG",
-          level: "Master",
-          icon: '<i class="devicon-svg-plain"></i>',
-          logo: "assets/logo/SVG.svg",
-        },
-        {
-          name: "JSON",
-          level: "Master",
-          icon: '<i class="devicon-json-plain"></i>',
-          logo: "assets/logo/JSON.svg",
         },
         {
           name: "AngularJs",
@@ -240,10 +222,22 @@ let akashpreet = {
           icon: '<i class="devicon-quasar-plain"></i>',
           logo: "assets/logo/CSS-3.svg",
         },
+        {
+          name: "SVG",
+          level: "Master",
+          icon: '<i class="devicon-svg-plain"></i>',
+          logo: "assets/logo/SVG.svg",
+        },
+        {
+          name: "D3",
+          level: "Master",
+          icon: '<i class="devicon-d3js-plain"></i>',
+          logo: "assets/logo/SVG.svg",
+        },
       ],
     },
     {
-      category: "Programming",
+      category: "Back-end",
       keywords: [
         {
           name: "C",
@@ -258,10 +252,16 @@ let akashpreet = {
           logo: "assets/logo/C++.svg",
         },
         {
-          name: "c#",
+          name: "C#",
           level: "Master",
           icon: '<i class="devicon-c-plain"></i>',
           logo: "assets/logo/C-Sharp.svg",
+        },
+        {
+          name: "NodeJs",
+          level: "Master",
+          icon: '<i class="devicon-nodejs-plain"></i>',
+          logo: "assets/logo/node.svg",
         },
         {
           name: "Java",
@@ -276,16 +276,17 @@ let akashpreet = {
           logo: "assets/logo/Python.svg",
         },
         {
-          name: "R",
+          name: "GraphQL",
           level: "Master",
           icon: '<i class="devicon-r-plain"></i>',
           logo: "assets/logo/R-Lang.svg",
         },
-      ],
-    },
-    {
-      category: "Database",
-      keywords: [
+        {
+          name: "Mongo DB",
+          level: "Master",
+          icon: '<i class="devicon-mysql-plain"></i>',
+          logo: "assets/logo/Mongodb.svg",
+        },
         {
           name: "Sql Server",
           level: "Master",
@@ -299,15 +300,15 @@ let akashpreet = {
           logo: "assets/logo/MySQL.svg",
         },
         {
-          name: "Mongo DB",
+          name: "Serverless Framework",
           level: "Master",
           icon: '<i class="devicon-mysql-plain"></i>',
-          logo: "assets/logo/Mongodb.svg",
+          logo: "assets/logo/MySQL.svg",
         },
       ],
     },
     {
-      category: "Cloud",
+      category: "Tools & Other Technologies",
       keywords: [
         {
           name: "AWS",
@@ -327,27 +328,41 @@ let akashpreet = {
           icon: '<i class="devicon-firebase-plain"></i>',
           logo: "assets/logo/Firebase.svg",
         },
-      ],
-    },
-    {
-      category: "Software",
-      keywords: [
         {
-          name: "Firebase",
+          name: "Git && SVN",
           level: "Master",
           icon: '<i class="devicon-firebase-plain"></i>',
-          logo: "assets/logo/CSS-3.svg",
+          logo: "assets/logo/Firebase.svg",
         },
-      ],
-    },
-    {
-      category: "Other",
-      keywords: [
         {
-          name: "Firebase",
+          name: "Webpack",
           level: "Master",
           icon: '<i class="devicon-firebase-plain"></i>',
-          logo: "assets/logo/CSS-3.svg",
+          logo: "assets/logo/Firebase.svg",
+        },
+        {
+          name: "npm && Yarn",
+          level: "Master",
+          icon: '<i class="devicon-firebase-plain"></i>',
+          logo: "assets/logo/Firebase.svg",
+        },
+        {
+          name: "VSCode",
+          level: "Master",
+          icon: '<i class="devicon-firebase-plain"></i>',
+          logo: "assets/logo/Firebase.svg",
+        },
+        {
+          name: "Adobe Illustrator",
+          level: "Master",
+          icon: '<i class="devicon-firebase-plain"></i>',
+          logo: "assets/logo/Firebase.svg",
+        },
+        {
+          name: "Figma",
+          level: "Master",
+          icon: '<i class="devicon-firebase-plain"></i>',
+          logo: "assets/logo/Firebase.svg",
         },
       ],
     },

@@ -7,26 +7,26 @@ import { Component } from '@angular/core';
 })
 export class NavbarComponent {
   navbar: Object[] = [
-    {
-      url: '/skill',
-      name: 'Skills',
-      icon: '',
-    },
-    {
-      url: '/project',
-      name: 'Projects',
-      icon: '',
-    },
-    {
-      url: '/achivement',
-      name: 'Achivement',
-      icon: '',
-    },
-    {
-      url: '/work',
-      name: 'Work',
-      icon: '',
-    },
+    // {
+    //   url: '/skill',
+    //   name: 'Skills',
+    //   icon: '',
+    // },
+    // {
+    //   url: '/project',
+    //   name: 'Projects',
+    //   icon: '',
+    // },
+    // {
+    //   url: '/achivement',
+    //   name: 'Achivement',
+    //   icon: '',
+    // },
+    // {
+    //   url: '/work',
+    //   name: 'Work',
+    //   icon: '',
+    // },
     {
       url: '/resume',
       name: 'Resume',

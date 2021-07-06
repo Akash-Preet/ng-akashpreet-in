@@ -2,7 +2,7 @@
   <div class="logo">
     Akash Preet
   </div>
-  <ul class="nav-links">
+  <ul class="nav-links d-flex justify-content-around">
     <li *ngFor="let nav of navbar" style="color: white;"><a href="#">{{nav.name}}</a></li>
   </ul>
   <div class="burger" (click)="navSlide()">
