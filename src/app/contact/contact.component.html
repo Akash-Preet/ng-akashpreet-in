@@ -1,7 +1,7 @@
-<section class="contact">
-  <div class="row">
-    <div class="text-center" *ngFor="let p of ap.basics.profiles">
-      <a [href]="p.url" target="_blank">{{p.network}}</a>
-    </div>
+<div class="contact">
+  <div class="contact-container" *ngFor="let p of ap.basics.profiles">
+    <a [href]="p.url" target="_blank">
+      <img class="contact-img" [src]="p.img">
+    </a>
   </div>
-</section>
+</div>

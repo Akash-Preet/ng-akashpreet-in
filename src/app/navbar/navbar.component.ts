@@ -27,16 +27,11 @@ export class NavbarComponent {
     //   name: 'Work',
     //   icon: '',
     // },
-    {
-      url: '/resume',
-      name: 'Resume',
-      icon: '',
-    },
-    {
-      url: '/contact',
-      name: 'Contact',
-      icon: '',
-    },
+    // {
+    //   url: '/contact',
+    //   name: 'Contact',
+    //   icon: '',
+    // },
   ];
   constructor() {}
 
@@ -57,5 +52,8 @@ export class NavbarComponent {
         }s`;
       }
     });
+  }
+  toggleTheme(event: any, className: string) {
+    document.getElementById('body').classList.toggle(className);
   }
 }

@@ -11,7 +11,4 @@ export class HeroComponent {
   constructor() {}
 
   ngOnInit(): void {}
-  toggleTheme(event: any, className: string) {
-    document.getElementById('body').classList.toggle(className);
-  }
 }
